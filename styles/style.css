@@ -21,9 +21,113 @@ header{
   display: flex;
   gap: 32px;
 }
-.nav ul li{
+.nav > ul > li{
   list-style: none;
   color: #3A3A3A;
   font-size: 1rem;
   font-weight: 600;
+}
+
+/* Hero section */
+
+.hero-continer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.hero-info{
+
+}
+.hero-tittle{
+  color: #3A3A3A;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 4.375rem;
+  margin-bottom: .5rem;
+}
+
+.hero-detail{
+  color: #3A3A3A;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+} 
+
+button{
+  display: inline-flex;
+  padding: 0.625rem 1.5rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+  border-radius: 2.5625rem;
+  background: #E02C6D;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+}
+.arrow{
+  margin-left: 8px;
+}
+
+/* Hero-Img */
+
+.main-camera-bg{
+  position: relative;
+}
+.main-camera{
+  position: absolute;
+  z-index: 1;
+  padding: 22px 0px 0px 22px;
+}
+
+
+
+/* Media Quary for Small devices */
+
+@media screen and (max-width:576px) {
+
+  header{
+    padding: 16px;
+    margin: 0px;
+  }
+  .nav{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav ul{
+    display: flex;
+    padding: 0px;
+    gap: 12px;
+  }
+  .hero-continer{
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+  }
+  .hero-info{
+    width: 100%;
+    text-align: center;
+  }
+  .hero-tittle{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-detail{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Hero- Image section */
+  .main-camera-bg{
+    position: relative;
+    width: 100%;
+  }
+  .main-camera{
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+  }
+
 }
