@@ -1,0 +1,29 @@
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header section */
+
+header{
+  padding:40px 120px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-tittle{
+  color: #3A3A3A;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.nav ul{
+  display: flex;
+  gap: 32px;
+}
+.nav ul li{
+  list-style: none;
+  color: #3A3A3A;
+  font-size: 1rem;
+  font-weight: 600;
+}
