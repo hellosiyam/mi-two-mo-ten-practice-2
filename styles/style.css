@@ -92,7 +92,7 @@ header{
 
 /* <!-- Popular Collection --> */
 .popular-collection{
-  padding: 60px 160px;
+  padding: 60px 150px;
 }
 .collection-tittle{
   text-align: center;
@@ -169,6 +169,48 @@ header{
   border: none;
   background-color: white;
 }
+
+/* Featured section  */
+.featured{
+  padding: 60px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.featured-detail{
+
+}
+.featured-detail h4{
+    color: #0A0826;
+    font-size: 2.375rem;
+    font-weight: 700;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+
+}
+.featured-detail p{
+  color: #6C6C6C;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  width: 31.3125rem;
+}
+.button-third{
+  display: inline-flex;
+  padding: 0.625rem 1.5rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+  background: #E02C6D;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+
+
 
 /* Media Quary for Small devices */
 
@@ -250,7 +292,25 @@ header{
     display: flex;
     flex-direction: column;
   }
-
+  /* Featured section */
+  .featured{
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column-reverse;
+  }
+  .featured-detail{
+    text-align: center;
+  }
+  .featured-detail p{
+    width: 100%;
+  }
+  .featured img{
+    width: 100%;
+  }
+  .button-third{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 
@@ -333,5 +393,24 @@ header{
   .product-continer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* Featured section */
+  .featured{
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column-reverse;
+  }
+  .featured-detail{
+    text-align: center;
+  }
+  .featured-detail p{
+    width: 100%;
+  }
+  .featured img{
+    width: 100%;
+  }
+  .button-third{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
