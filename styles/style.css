@@ -81,6 +81,14 @@ button{
   padding: 22px 0px 0px 22px;
 }
 
+/* Sponsors Section */
+.sponsors-continer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 140px;
+}
+
+
 
 
 /* Media Quary for Small devices */
@@ -128,6 +136,21 @@ button{
     position: absolute;
     z-index: 1;
     width: 80%;
+  }
+
+  /* Sponsors Section */
+  .sponsors-continer{
+    padding: 16px;
+    margin: 0px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    align-items: center;
+    margin: 20px 0px;
+  }
+  .sponsors-continer img{
+    width: 20%;
+
   }
 
 }
