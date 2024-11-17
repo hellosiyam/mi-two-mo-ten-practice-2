@@ -208,7 +208,44 @@ header{
   border: none;
   margin-top: 0.5rem;
 }
-
+/* Footer section  */
+footer{
+  background-color: #0A0826;
+  padding: 3rem;
+  justify-content: center;
+}
+.footer-section{
+  text-align: center;
+}
+.footer-tittle{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+.copy{
+  color:#D9DBE1;
+  font-family: Manrope;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.all {
+  color: #D9DBE1;
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.soical-iogo{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
 
 
 
@@ -311,6 +348,38 @@ header{
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+  /* footer section  */
+  footer{
+    background-color: #0A0826;
+    padding: 2rem;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .footer-tittle{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 6px;
+  }
+  .copy{
+    color:#D9DBE1;
+    font-family: Manrope;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .all {
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+
+  }
 }
 
 
@@ -412,5 +481,37 @@ header{
   .button-third{
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+  /* footer section  */
+  footer{
+    background-color: #0A0826;
+    padding: 2rem;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .footer-tittle{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 6px;
+  }
+  .copy{
+    color:#D9DBE1;
+    font-family: Manrope;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .all {
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+
   }
 }
