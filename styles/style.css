@@ -91,7 +91,7 @@ button{
 
 /* <!-- Popular Collection --> */
 .popular-collection{
-  padding: 60px 140px;
+  padding: 60px 160px;
 }
 .collection-tittle{
   text-align: center;
@@ -109,7 +109,7 @@ button{
   row-gap: 24px;
 }
 .card{
-  border-radius: 0.3125rem;
+  border-radius: 8px;
   background: #FFF;
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
   padding: 16px;
@@ -129,6 +129,7 @@ button{
   color: rgba(0, 0, 0, 0.87);
   font-size: 1.5rem;
   font-weight: 400;
+  font-family: Inter;
   margin-top: 0.38rem;
   margin-bottom: 0.50rem;
 }
@@ -142,15 +143,17 @@ button{
   margin-top: 0.50rem;
   margin-bottom: 0.30rem;
   color: #5E6366;
+  font-family: Inter;
   font-size: 0.875rem;
   font-weight: 700;
 }
 .card h6{
+  font-family: Inter;
   color: #787885;
   font-size: 0.875rem;
   font-weight: 700;
   margin-top: 0rem;
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
 }
 
 
