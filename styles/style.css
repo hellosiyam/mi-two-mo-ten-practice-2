@@ -72,13 +72,14 @@ header{
 
 /* Hero-Img */
 
-.main-camera-bg{
+.hero-img{
   position: relative;
 }
 .main-camera{
   position: absolute;
   z-index: 1;
-  padding: 22px 0px 0px 22px;
+  top: 25px;
+  left: 24px;
 }
 
 /* Sponsors Section */
@@ -212,7 +213,7 @@ header{
   .main-camera{
     position: absolute;
     z-index: 1;
-    width: 80%;
+    width: 88%;
   }
   /* main section */
   main{
@@ -250,4 +251,87 @@ header{
     flex-direction: column;
   }
 
+}
+
+
+
+/* Medium Devices */
+@media screen and (min-width:577px) and (max-width:1024px) {
+  header{
+    padding: 32px;
+    margin: 0px;
+  }
+  .nav{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav ul{
+    display: flex;
+    padding: 0px;
+    gap: 24px;
+  }
+  .hero-continer{
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+  }
+  .hero-info{
+    width: 100%;
+    text-align: center;
+  }
+  .hero-tittle{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-detail{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Hero- Image section */
+  .main-camera-bg{
+    position: relative;
+    width: 100%;
+  }
+  .main-camera{
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+  }
+  /* main section */
+  main{
+    padding: 32px;
+    margin: 0px;
+  }
+  /* Sponsors Section */
+  .sponsors-continer{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    align-items: center;
+    margin: 20px 0px;
+  }
+  .sponsors-continer img{
+    width: 20%;
+  }
+  /* <!-- Popular Collection --> */
+  .popular-collection{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .collection-tittle h1{
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .product-continer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
