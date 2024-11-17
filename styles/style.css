@@ -54,7 +54,7 @@ header{
   margin-bottom: 1rem;
 } 
 
-button{
+.primary-button{
   display: inline-flex;
   padding: 0.625rem 1.5rem;
   align-items: flex-start;
@@ -155,7 +155,19 @@ button{
   margin-top: 0rem;
   margin-bottom: 1rem;
 }
-
+.see{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.see-more{
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  background-color: white;
+}
 
 /* Media Quary for Small devices */
 
